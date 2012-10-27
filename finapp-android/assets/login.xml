@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<levelData>
+  <data>
+    <dataId>login</dataId>
+    <headerText>Datos de Acceso</headerText>
+    <nextLevel>
+      <nextLevelLevelId>portada</nextLevelLevelId>
+      <nextLevelDataId>portada</nextLevelDataId>
+    </nextLevel>
+    <form>
+      <actionUrl>http://172.20.45.38/finapp/login.php</actionUrl>
+      <field>
+        <fieldType>INPUT_TEXT</fieldType>
+        <fieldLabel>Nombre:</fieldLabel>
+        <fieldName>username</fieldName>
+      </field>
+  <field>
+        <fieldType>INPUT_PASSWORD</fieldType>
+        <fieldLabel>Contraseña:</fieldLabel>
+        <fieldName>password</fieldName>
+      </field>
+    </form>
+  </data>
+</levelData>

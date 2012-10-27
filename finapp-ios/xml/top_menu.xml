@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level>
+	<menuActions>
+		<action>
+			<actionTitle>Boton1</actionTitle>
+			<actionImageName>images/backButton.png</actionImageName>
+			<systemAction>back</systemAction>
+			<leftMargin>5</leftMargin>
+			<widthButton>50</widthButton>
+			<heightButton>28</heightButton>
+			<nextLevel>
+				<nextLevelLevelId></nextLevelLevelId>
+				<nextLevelDataId></nextLevelDataId>
+			</nextLevel>
+		</action>
+        <action>
+			<actionTitle>Boton2</actionTitle>
+			<actionImageName>images/refreshbutton.png</actionImageName>
+			<systemAction>refresh</systemAction>
+			<leftMargin>225</leftMargin>
+			<widthButton>33</widthButton>
+			<heightButton>31</heightButton>
+			<nextLevel>
+				<nextLevelLevelId></nextLevelLevelId>
+				<nextLevelDataId></nextLevelDataId>
+			</nextLevel>
+		</action>
+	</menuActions>
+</level>

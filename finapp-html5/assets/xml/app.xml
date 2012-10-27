@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<title>eMobc FinApps</title>
+	<coverFileName>portada.xml</coverFileName>
+	<stylesFileName>styles.xml</stylesFileName>
+	<formatsFileName>format.xml</formatsFileName>
+	<entryPoint>
+		<pointLevelId>login</pointLevelId>
+		<pointDataId>login</pointDataId>
+	</entryPoint>
+	<menu>
+		<topMenu>top_menu.xml</topMenu>
+		<bottomMenu>bottom_menu.xml</bottomMenu> 
+		<backgroundMenu>images/backgroundMenu.png</backgroundMenu>
+	</menu>
+	<rotation></rotation>
+	<levels>
+		<level>
+			<levelId>login</levelId>
+			<levelTitle>Login</levelTitle>
+			<levelFile>login.xml</levelFile>
+			<levelType>FORM_ACTIVITY</levelType>
+			<levelXib>login</levelXib>
+			<levelTransition>None</levelTransition>
+		</level>
+	</levels>
+</application>
